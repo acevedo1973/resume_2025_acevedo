@@ -1,0 +1,82 @@
+body {
+  background-color:lightslategray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd, #92d83d);
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero-section .overlay {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+
+.section-title {
+  color: #1e5cbb;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border-left: 5px solid #0d6efd;
+}
+
+.quote-divider p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #6c757d;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 99;
+}
+.hero-section {
+  background: linear-gradient(135deg, #1360d2, #68e164);
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: whitesmoke;
+  overflow: hidden;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* visual overlay only */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2; /* brings your name/text to the front */
+}
